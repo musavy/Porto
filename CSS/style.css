@@ -1,0 +1,56 @@
+
+  
+/* ===header=== */
+header div {
+    border: 2px solid purple;
+    display: inline-block;
+}
+
+img {
+    width: 50%;
+    height: 180px;
+    border-radius: 2px;
+}
+
+.head-wrapper{
+    display: flex;
+    justify-content:center;
+    justify-items:auto;
+
+}
+
+.head-wrapper div{
+
+    
+    height: 180px;
+    border: 4px solid purple;
+
+}
+
+
+
+.header-nav li {
+    display: inline-block;
+    margin-right: 10%;
+    list-style: none;
+}
+
+.header-nav li a {
+    text-decoration: none;
+}
+
+/* === body === */
+
+/* === footer=== */
+
+footer{
+
+background-color: lightblue;
+}
+
+button{
+background-color: greenyellow ;
+height: 50px;
+width: 500px;
+font-size: 18px;
+}
