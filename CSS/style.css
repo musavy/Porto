@@ -1,74 +1,68 @@
+/ header div {
+  border: 2px solid purple;
+  display: inline-block;
+}   
 
-  
-/* ===header=== */
-header div {
-    border: 2px solid purple;
-    display: inline-block;
+.center {
+    width: 100%;
+    text-align: center;
 }
-
 img {
-    width: 50%;
-    height: 180px;
-    border-radius: 2px;
+  width: 90%;
+  height: 180px;
+  border-radius: 2px;
 }
 
-.head-wrapper{
-    display: flex;
-    justify-content:center;
-    justify-items:auto;
-
+.head-wrapper {
+  display: flex;
+  justify-content: left;
+  justify-items:center;
 }
 
-.head-wrapper div{
-
-    
-    height: 180px;
-    border: 4px solid purple;
+.head-wrapper div {
+  height: 180px;
 
 }
 
 
 
 .header-nav li {
-    display: inline-block;
-    margin-right: 10%;
-    list-style: none;
+  display: inline-block;
+  margin-right: 10%;
+  list-style: none;
 }
 
 .header-nav li a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 /* === body === */
 
 span {
-    color:red
+  color: red;
 }
 table {
-width: 80%;
-    margin:auto;
-
+  width: 80%;
+  margin: auto;
 }
-table ,th
-,
+table,
+th,
 td {
-border: 2px solid black;
-    border-collapse:collapse;
-
-
+  border: 2px solid black;
+  border-collapse: collapse;
 }
 
 
 /* === footer=== */
 
-footer{
-
-background-color: lightblue;
+footer {
+  background-color: pink;
+  border: 2px solid red;
 }
 
-button{
-background-color: greenyellow ;
-height: 50px;
-width: 500px;
-font-size: 18px;
+button {
+  background-color: greenyellow;
+  height: 50px;
+  width: 500px;
+  font-size: 18px;
 }
