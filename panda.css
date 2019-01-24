@@ -1,0 +1,40 @@
+body{
+ 
+    background-color: red
+    
+}
+
+#road{
+
+border-bottom:10px dashed green;
+
+}
+
+#runner{
+
+    background:url("https://www.freelancer.com/contest/Pixel-Art-Sprite-Sheet-for-a-Videogame-Character-137657-byentry-4561269.html");
+
+widows: 250px;
+height: 330px;
+animation:walk 1s steps(12) infinite,
+forward 5s linear infinite;
+
+@keyframes wlak {
+    0%{
+        background-position: 0px;
+
+    }
+    100%{
+        background-position: px
+    }
+}
+@keyframes forward {
+    0%{
+        transform:translatex(-100px);
+    }
+    100%{
+        transform:translatex(1200px);
+
+    }
+    
+}
