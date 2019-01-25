@@ -4,12 +4,17 @@
 }   
 
 .center {
-    width: 100%;
+    width: 1000px;
     text-align: center;
+
 }
 img {
-  width: 90%;
-  height: 180px;
+
+    display: block;
+    margin-left: right;
+    margin-right:right ;
+  width: 150px;
+  height: 150pxpx;
   border-radius: 2px;
 }
 
@@ -55,9 +60,12 @@ td {
 
 /* === footer=== */
 
-footer {
-  background-color: pink;
-  border: 2px solid red;
+footer li {
+  display: inline-block;
+  text-align: right;
+  margin-right:10%;
+  list-style:none;
+  
 }
 
 button {
