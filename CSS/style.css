@@ -1,76 +1,92 @@
-/ header div {
-  border: 2px solid purple;
-  display: inline-block;
-}   
-
-.center {
-    width: 1000px;
-    text-align: center;
-
-}
-img {
-
-    display: block;
-    margin-left: right;
-    margin-right:right ;
-  width: 150px;
-  height: 150pxpx;
-  border-radius: 2px;
+* {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.head-wrapper {
+/* */
+.HeadTitle {
+  padding: 10px 40px;
   display: flex;
-  justify-content: left;
-  justify-items:center;
+}
+header h1 {
+  animation: animate 3s ease-in-out infinite;
 }
 
-.head-wrapper div {
-  height: 180px;
+@keyframes animate {
+  0% {
+    opacity: 1;
+    color: black;
+  }
+  25% {
+    opacity: 0;
+    color: red;
+  }
 
+  55% {
+    opacity: 1;
+    color: green;
+  }
+
+  75% {
+    opacity: 0;
+    color: yellow;
+  }
+
+  100% {
+    opacity: 1;
+    color: blue;
+  }
 }
-
-
-
-.header-nav li {
-  display: inline-block;
-  margin-right: 10%;
-  list-style: none;
+.HeadTitle img {
+  border-radius: 55px;
+  flex: 1;
+  height: 150px;
+  width: 200px;
+  opacity: 0.7;
 }
-
-.header-nav li a {
-  text-decoration: none;
+.HeadTitle h1 {
+  flex: 2;
+  text-align: center;
+  font-size: 40px;
 }
-
-/* === body === */
-
-span {
-  color: red;
+img1 {
+  float: right;
+  border: 1px dotted black;
+  margin: 0px 0px 15px 20px;
 }
-table {
-  width: 80%;
+.menuBar {
+  background-color: rgb(121, 17, 17);
   margin: auto;
+  display: flex;
+  flex-wrap: wrap;
 }
-table,
-th,
-td {
-  border: 2px solid black;
-  border-collapse: collapse;
-}
-
-
-/* === footer=== */
-
-footer li {
-  display: inline-block;
-  text-align: right;
-  margin-right:10%;
-  list-style:none;
-  
-}
-
-button {
-  background-color: greenyellow;
-  height: 50px;
-  width: 500px;
+.menuBar a {
+  text-decoration: none;
+  color: goldenrod;
+  padding: 15px;
+  flex: 1;
   font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+.menuBar a:hover {
+  background-color: rgb(168, 191, 240);
+  color: white;
+}
+.mainContent {
+  width: 100pxpx;
+  height: 100px;
+  background-color: antiquewhite;
+}
+
+footer div {
+  text-align: center;
+}
+
+footer div p,
+ul {
+  text-align: left;
+  background-color: gray;
+}
+.fa-github {
+  color: ;
 }
