@@ -1,3 +1,5 @@
+
+
 * {
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -6,17 +8,18 @@
 .HeadTitle {
   padding: 10px 40px;
   display: flex;
+  background: linear-gradient(100deg, rgb(0, 0, 0), tomato);
 }
 header h1 {
   animation: animate 3s ease-in-out infinite;
 }
-
 body {
   margin-left: 9%;
   margin-right: 5%;
   margin-top: 9%;
   margin-bottom: 1%;
-  font-family: arial, helvetica, sans-serif;
+  font-family: fire-animation font-effect-fire-animation;
+  font-size: 20px;
   box-shadow: 10px 5px 5px brown;
 }
 .contact-image {
@@ -50,7 +53,7 @@ body {
   }
 }
 .HeadTitle img {
-  border-radius: 55px;
+  /* border-radius: 55px; */
   flex: 1;
   height: 150px;
   width: 200px;
@@ -61,10 +64,23 @@ body {
   text-align: center;
   font-size: 40px;
 }
-.img1 {
-  float: right;
-  border: 1px dotted black;
-  margin: 0px 0px 15px 20px;
+
+/* center-img INTEGRIFY*/
+.center-img-box {
+  text-align: center;
+}
+details {
+  width: 100%;
+}
+.middle {
+  text-align: center;
+  color: green;
+}
+img {
+  display: block;
+  margin: 0 auto;
+  width: 260px;
+  height: 232px;
 }
 .menuBar {
   background-color: rgb(121, 17, 17);
@@ -88,14 +104,12 @@ body {
   transition: all 4s ease-in-out;
 }
 .menuBar a:hover {
-  background-color: rgb(168, 191, 240);
+  background-color: rgb(12, 105, 62);
   color: white;
-  border: 2px;
-  padding: 3px;
 }
 .mainContent {
-  width: 100pxpx;
-  height: 100px;
+  width: 100%;
+  height: 100%;
   background-color: antiquewhite;
 }
 div.images {
@@ -104,17 +118,16 @@ div.images {
   margin: 0px 0px 15px 20px;
 }
 
-footer {
-}
 footer div {
   text-align: center;
-  background-color: lightskyblue;
+ background: linear-gradient(100deg, rgb(0, 0, 0), tomato);
 }
 
 footer div p,
 ul {
   text-align: left;
-  background-color: lightskyblue;
+   background: linear-gradient(100deg, rgb(0, 0, 0), tomato);
+  color: red;
 }
 
 p {
@@ -129,4 +142,5 @@ p {
 .image-box img {
   width: 100%;
   height: auto;
+  text-align: center;
 }
